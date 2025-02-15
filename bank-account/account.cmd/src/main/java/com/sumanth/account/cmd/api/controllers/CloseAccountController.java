@@ -1,7 +1,7 @@
 package com.sumanth.account.cmd.api.controllers;
 
 import com.sumanth.account.cmd.api.commands.CloseAccountCommand;
-import com.github.adityagarde.account.common.dto.BaseResponse;
+import com.github.sumanth.account.common.dto.BaseResponse;
 import com.github.sumanth.cqrs.core.exceptions.AggregateNotFoundException;
 import com.github.sumanth.cqrs.core.infra.CommandDispatcher;
 import org.springframework.beans.factory.annotation.Autowired;
