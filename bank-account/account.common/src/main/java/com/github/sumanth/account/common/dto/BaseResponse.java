@@ -12,5 +12,7 @@ import lombok.experimental.SuperBuilder;
 public class BaseResponse {
     private String message;
 
+
+
     // added Response class provided default communication between the Repos
 }
